@@ -26,6 +26,9 @@ TARGET_NO_BOOTLOADER := true
 
 TARGET_SPECIFIC_HEADER_PATH += device/lge/g2m/include
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := g2m,d620
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm

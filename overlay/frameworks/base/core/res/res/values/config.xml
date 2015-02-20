@@ -21,30 +21,6 @@
      for different hardware and product builds. -->
 <resources>
 
-    <!-- Vibrator pattern for feedback about a long screen/key press -->
-    <integer-array name="config_longPressVibePattern">
-        <item>0</item>
-        <item>20</item>
-    </integer-array>
-
-    <!-- Vibrator pattern for feedback about touching a virtual key -->
-    <integer-array name="config_virtualKeyVibePattern">
-        <item>0</item>
-        <item>15</item>
-    </integer-array>
-
-    <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
-    <integer-array name="config_keyboardTapVibePattern">
-        <item>0</item>
-        <item>13</item>
-    </integer-array>
-
-    <!-- Vibrator pattern for feedback about booting with safe mode disabled -->
-    <integer-array name="config_safeModeDisabledVibePattern">
-        <item>0</item>
-        <item>15</item>
-    </integer-array>
-
     <!-- Performance profiles  
     <string name="config_perf_profile_prop">sys.perf.profile</string>
     <string name="config_perf_profile_default_entry">1</string>
@@ -165,32 +141,23 @@
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">5</integer>
 
+<!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
-        <item>40</item>
+        <item>7</item>
+        <item>10</item>
     </integer-array>
+
+    <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
-        <item>0</item>
-        <item>33</item>
+        <item>7</item>
     </integer-array>
+
+    <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>0</item>
-        <item>25</item>
+        <item>5</item>
     </integer-array>
-    <integer-array name="config_safeModeDisabledVibePattern">
-        <item>0</item>
-        <item>40</item>
-    </integer-array>
-    <integer-array name="config_safeModeEnabledVibePattern">
-        <item>0</item>
-        <item>40</item>
-        <item>600</item>
-    </integer-array>
-    <integer-array name="config_scrollBarrierVibePattern">
-        <item>0</item>
-        <item>33</item>
-        <item>60</item>
-        <item>33</item>
+
     </integer-array>
     <integer-array name="config_protectedNetworks">
         <item>10</item>
@@ -261,7 +228,7 @@
             32 - Camera
         For example, a device with Home, Back and Menu keys would set this
         config to 7. -->
-    <integer name="config_deviceHardwareKeys">1</integer>
+    <integer name="config_deviceHardwareKeys">0</integer>
 
     <!-- Device supports LED flashlight 
     <bool name="config_enableTorch">true</bool> -->
@@ -271,10 +238,10 @@
 
     <!-- Enable the option to check proximity sensor when deciding whether to
          turn the screen on.
-         NOTE ! - Enable for devices that have a fast response proximity sensor
+         NOTE ! - Enable for devices that have a fast response proximity sensor -->
     <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">400</integer>
- -->
+    <integer name="config_proximityCheckTimeout">200</integer>
+
     <!-- Need check this values -->
 <!--     <integer-array name="config_smartCoverWindowCoords"> -->
  <!--        <item>55</item>  -->   <!-- Top -->

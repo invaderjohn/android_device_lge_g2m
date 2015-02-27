@@ -26,6 +26,8 @@ TARGET_NO_BOOTLOADER := true
 
 TARGET_SPECIFIC_HEADER_PATH += device/lge/g2m/include
 
+ANDROID_COMMON_BUILD_MK = true
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm

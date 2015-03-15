@@ -50,9 +50,6 @@ vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libacdbmapper.so
 vendor/lib/libacdbloader.so
-lib/libtinyalsa.so
-lib/libtinycompress.so
-lib/hw/audio.primary.msm8226.so
 bin/fm_qsoc_patches
 
 # Listen service
@@ -79,7 +76,16 @@ vendor/lib/libdsi_netctrl.so
 vendor/lib/libqdi.so
 vendor/lib/libnetmgr.so
 vendor/lib/libdsnetutils.so
+vendor/lib/libsmemlog.so
 vendor/lib/libqdp.so
+vendor/lib/libcneapiclient.so
+vendor/lib/libperipheral_client.so
+vendor/lib/libsystem_health_mon.so
+vendor/lib/libxml.so
+lib/libxml2.so
+lib/libuicc.so
+lib/libmdmdetect.so
+lib/libcnefeatureconfig.so
 lib/libvss_common_iface.so
 lib/libvss_common_idl.so
 lib/libvss_nv_iface.so
@@ -87,6 +93,7 @@ lib/libvss_nv_idl.so
 lib/libvss_common_core.so
 lib/libvss_nv_core.so
 lib/libril.so
+lib/libbinder.so
 bin/qmuxd
 bin/rild
 bin/rmt_storage
@@ -244,6 +251,9 @@ vendor/lib/libsensor_reg.so
 bin/sensors.qcom
 lib/hw/lights.msm8226.so
 vendor/lib/libbmc050.so
+
+# Perf
+bin/mpdecision
 
 # Other
 vendor/firmware/libpn547_fw.so

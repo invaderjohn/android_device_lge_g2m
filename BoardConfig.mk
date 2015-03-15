@@ -67,7 +67,7 @@ COMMON_GLOBAL_CFLAGS += \
     -DBOARD_CHARGING_CMDLINE_VALUE='"chargerlogo"'
 
 # Enable dex-preoptimization to speed up first boot sequence
-WITH_DEXPREOPT := true
+WITH_DEXPREOPT := false
 
 # Global flags
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE -DLG_CAMERA_HARDWARE

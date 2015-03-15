@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
     amix \
     arec \
     alsaucm_test
+    
+# Keyhandler
+PRODUCT_PACKAGES += \
+    com.cyanogenmod.keyhandle
 
 # Misc
 PRODUCT_PACKAGES += \

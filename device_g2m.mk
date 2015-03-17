@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
     amix \
     arec \
     alsaucm_test
+    
+# Keyhandler
+PRODUCT_PACKAGES += \
+    com.cyanogenmod.keyhandle
 
 # Misc
 PRODUCT_PACKAGES += \
@@ -381,7 +385,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/lge/g2m/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/lge/g2m/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    device/lge/g2m/nfc/nfc-nci.conf:system/etc/nfc-nci.conf \
     device/lge/g2m//nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
 # QC time services

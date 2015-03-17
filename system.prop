@@ -1,4 +1,4 @@
-# system.prop for d620
+# system.prop for g2m
 
 
 # Use reference RIL for initial bringup
@@ -78,13 +78,8 @@ tunnel.audio.encode = true
 #use VERY_HIGH_QUALITY for audio resampler
 af.resampler.quality=4
 
-#System props for vibrator
-ro.config.vibrate_type=2
-
-
-#// LGE_CHANGE_S, [Net_Patch_0300][CALL_FRW][COMMON], 2012-05-25, Airplane Mode Pop-Up display property value {
 ro.airplane.phoneapp=1
-#// LGE_CHANGE_E, [Net_Patch_0300][CALL_FRW][COMMON], 2012-05-25, Airplane Mode Pop-Up display property value }
+
 # system prop for NFC DT
 ro.nfc.port=I2C
 
@@ -97,10 +92,6 @@ log.tag.NlpProxy=DEBUG
 log.tag.LocSvc_java=DEBUG
 ro.build.target_operator=GLOBAL
 ro.build.target_country=COM
-ro.lge.swversion=D62010g
-ro.lge.swversion_short=V10g
-ro.lge.swversion_rev=0
-ro.lge.factoryversion=LGD620AT-00-V10g-GLOBAL-COM-JUL-04-2014+0
 ro.lge.lcd_default_brightness=157
 ro.lge.capp_smartcard_ac_gp=false
 ro.lge.capp_smartcard_ac_gto=false
@@ -121,13 +112,7 @@ ro.config.vc_call_vol_steps=6
 ro.config.vc_call_vol_default=3
 ro.lge.bt_gain_control_factor=1
 ro.build.sbp=1
-ro.config.ringtone=01_Lifes_Good_VBC.ogg
-ro.config.notification_sound=Crystal.ogg
-ro.config.alarm_alert=Lifes_Good_Alarm.ogg
-ro.config.timer_alert=Timer.ogg
-ro.com.google.gmsversion=4.4_r3
-ro.setupwizard.mode=DISABLED
-ro.livewallpaper.map=DISABLED
+Use.dedicated.device.for.VoIP=false
 ro.com.google.apphider=on
 ro.lge.vib_magnitude_index=0,20,40,60,80,100,120,127
 ro.sdcrypto.syscall=378

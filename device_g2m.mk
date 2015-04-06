@@ -151,7 +151,7 @@ PRODUCT_PACKAGES += \
     
 # Keyhandler
 PRODUCT_PACKAGES += \
-    com.cyanogenmod.keyhandle
+    com.cyanogenmod.keyhandler
 
 # Misc
 PRODUCT_PACKAGES += \
